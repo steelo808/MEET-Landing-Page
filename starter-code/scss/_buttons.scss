@@ -1,0 +1,37 @@
+%btn{
+    padding:10px;
+    color:$background-color;
+    border-radius:50px;
+    font-weight: $black;
+    font-size:16px;
+    line-height:26px;
+    outline-color:transparent;
+    cursor:pointer;
+}
+
+.btn-pri{
+    @extend %btn;
+    background-color:$default-blue;
+    width:12rem;
+    height:3.6rem;
+    cursor:pointer;
+}
+
+.btn-pri:hover{
+    background-color:$hover-blue;
+    transition: 0.8s ease-in-out;
+}
+
+.btn-sec{
+    @extend %btn;
+    background-color:$default-purple;
+    width:8.7rem;
+    height:3.6rem;
+    cursor:pointer;
+}
+
+.btn-sec:hover{
+    background-color:$hover-purple;
+    transition: 0.8s ease-in-out;
+}
+
