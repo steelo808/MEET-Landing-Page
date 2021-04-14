@@ -5,7 +5,7 @@
     font-weight: $black;
     font-size:16px;
     line-height:26px;
-    outline-color:transparent;
+    border:none;
     cursor:pointer;
 }
 
@@ -19,7 +19,7 @@
 
 .btn-pri:hover{
     background-color:$hover-blue;
-    transition: 0.8s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 
 .btn-sec{
@@ -32,6 +32,6 @@
 
 .btn-sec:hover{
     background-color:$hover-purple;
-    transition: 0.8s ease-in-out;
+    transition: 0.5s ease-in-out;
 }
 

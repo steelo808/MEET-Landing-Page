@@ -14,3 +14,50 @@ body{
     font-family:$main-font;
     background-color:$background-color;
 }
+
+.logo{
+    text-align:center;
+    padding-top:5rem;
+}
+
+.hero{
+    padding-top:3.8rem;
+    display:flex;
+    justify-content: space-between;
+
+    .content{
+        width:33.7rem;
+        height:19rem;
+        text-align:center;
+
+        h1{
+            font-size:4rem;
+            line-height:4rem;
+            width:27.8rem;
+            margin:0 auto;
+            color:$header-color;
+            padding-bottom:2.1rem;
+        }
+
+        p{
+            padding-bottom:2rem;
+            color:$text-color;
+            line-height:1.6rem;
+            font-weight:$medium;
+            font-size:1.1rem;
+        }
+    }
+
+    .buttons{
+        margin:0 auto;
+
+
+        .btn-pri{
+            margin-right:1rem;
+            
+            span{
+                color:$accent;
+            }
+        }
+    }
+}
