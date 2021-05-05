@@ -145,7 +145,8 @@ section{
         }
 
         p{
-            width:540px;
+            width: 33.7rem;
+            height:4.8rem;
             text-align:center;
             color:$text-color;
             font-size:1.1rem;
@@ -186,3 +187,11 @@ section{
     }
 }
 
+footer{
+    height:19rem;
+    background:linear-gradient(rgba(77, 150, 168, 0.9), rgba(77, 150, 168, 0.9)), url(/starter-code/assets/desktop/image-footer.jpg);
+    background-size: cover;
+    background-position:center;
+    background-repeat:no-repeat;
+    position:relative;
+}
