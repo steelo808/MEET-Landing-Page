@@ -140,7 +140,8 @@ section{
             font-size:2.5rem;
             color:$header-color;
             width:445px;
-            margin-bottom:2rem;
+            margin:0 auto;
+            padding-bottom:2rem;
         }
 
         p{
@@ -152,4 +153,36 @@ section{
             margin-bottom:4.5rem;
         }
     }
+
+    .divider{
+        padding-top:6.56rem;
+        margin:0 auto;
+        display: flex;
+        flex-direction:column;
+        align-items:center;
+        justify-content:center;
+
+        .line{
+            border-left:1px solid $light-grey;
+            height:84px;
+            width:0px;
+        }
+
+        .circle{
+            border:1px solid $light-grey;
+            border-radius:50%;
+            margin:0 auto;
+            width:56px;
+            height:56px;
+            display:flex;
+            align-items: center;
+            justify-content: center;
+
+            .num{
+                color:$num-color;
+                font-weight:$black;
+            }
+        }
+    }
 }
+
